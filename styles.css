@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: #fff5ee;
+    background-color: #000;
+    
+}
+
+/* NAVIGATION */
+
+
+.nav-list {
+    background-color: #000;
+    border-bottom: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    z-index: 1;
+
+}
+.nav-item {
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-item a {
+    text-decoration: underline;
+    color: #fff5ee;
+}
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 10px;
+}
+.nav-item img {
+    height: 50px;
+}
+
+/* TOP-CONTENT */
+
+.top-content {
+    background-image: url(/images/img-mission-background.webp);
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centered-text {
+    background-color: #000;
+    width: 1200px;
+    height: 70px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/* MIDDLE-CONTENT */
+
+.middle-content {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    
+    text-align: center;
+}
+
+/* BOTTOM-MIDDLE-CONTENT */
+
+.tea-products {
+    background-color: #000;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+
+.tea-items {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+figcaption {
+    
+    font-family: helvetica;
+    color: seashell;
+    padding-top: 10px;
+}
+
