@@ -46,7 +46,7 @@ body {
 /* TOP-CONTENT */
 
 .top-content {
-    background-image: url(/images/img-mission-background.webp);
+    background-image: url(images/img-mission-background.webp);
     width: 1200px;
     height: 700px;
     margin: 0 auto;
@@ -114,9 +114,13 @@ figcaption {
     
     position: relative;
     top: 80px;
+<<<<<<< HEAD
     background-image: url(/images/img-locations-background.webp);
     background-position: center;
     background-repeat: no-repeat;
+=======
+    background-image: url(images/img-locations-background.webp);
+>>>>>>> 66d3f869f4c435d1d38d97cadd9e73b1b3f1aa1e
     background-size: cover;
 
     
