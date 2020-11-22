@@ -80,13 +80,13 @@ body {
     width: 1000px;
     height: 500px;
     margin: 0 auto;
-    padding-top: 50px;
-    
+    padding-top: 40px;
     display: flex;
     justify-content: center;
+    align-items: center; 
+    
     flex-wrap: wrap;
-    /*align-items: center;*/
-    align-content: center;
+    
 }
 
 
@@ -114,13 +114,9 @@ figcaption {
     
     position: relative;
     top: 80px;
-<<<<<<< HEAD
     background-image: url(/images/img-locations-background.webp);
     background-position: center;
     background-repeat: no-repeat;
-=======
-    background-image: url(images/img-locations-background.webp);
->>>>>>> 66d3f869f4c435d1d38d97cadd9e73b1b3f1aa1e
     background-size: cover;
 
     
